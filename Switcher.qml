@@ -132,11 +132,13 @@ Item {
                         anchors.centerIn: previewArea
                         visible: !preview.hasContent
                         text: card.modelData?.wayland?.appId || "Window"
+                        textFormat: Text.PlainText
                         color: "#ffffff"; width: 210; elide: Text.ElideRight; horizontalAlignment: Text.AlignHCenter
                     }
                     Text {
                         x: 12; y: 160; width: 216; height: 26
                         text: card.modelData?.wayland?.title || "Window"
+                        textFormat: Text.PlainText
                         elide: Text.ElideRight; color: "#ffffff"; font.pixelSize: 13
                         horizontalAlignment: Text.AlignHCenter
                     }

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "abeltsew.super-app-switch",
+  "name": "super-app-switch",
+  "version": "1.0.0",
+  "author": "abeltsew",
+  "description": "Centered live window previews with Super+Tab cycling, mouse selection, and per-window close controls.",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Switcher.qml"
+  }
+}
